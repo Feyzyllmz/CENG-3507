@@ -1,0 +1,69 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+.container{
+  position: absolute;
+  width: 1200px;
+  height: 300px;
+  margin: 240px;
+}
+.container .box{
+  position: absolute;
+  width: calc(400px-30px);
+  height: calc(300px-30px);
+  background: lavenderblush;
+  float: left;
+  margin: 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 0;
+  border-color: hotpink;
+  border-style: solid;
+  
+}
+.container .box .icon{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+  transition: .5s;
+  z-index: 1;
+}
+.container .box .icon .fa{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  transition: 0.5s;
+  color: #fff;
+}
+.container .box:hover .icon .fa{
+  font-size: 40px;
+  
+}
+.container .box .content{
+  position: 
+  top: 100%;
+  height: calc(100% - 100%);
+  text-align: left-aligned;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.container .box:hover .content{
+  top: 100%;
+  opacity: 1;
+  
+}
+.container .box .content h2{
+  margin: 0 0 10px;
+  padding: 0;
+  color: 
+  font-size: 24px;
+  
+}
